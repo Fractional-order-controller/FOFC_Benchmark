@@ -1,0 +1,63 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3367486515" file="/Users/standard/Documents/GitHub/NPMSimscapeFOPD/QuadRotor/NPM/FOPD_Tuner.prj" location="/Users/standard/Documents/GitHub/NPMSimscapeFOPD/QuadRotor/NPM" name="FOPD_Tuner" target="target.mlapps" target-name="Package App">
+    <param.appname>FOPD_Tuner</param.appname>
+    <param.authnamewatermark>Bo Shang</param.authnamewatermark>
+    <param.email>cnpcshangbo@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/standard/Documents/GitHub/NPMSimscapeFOPD/QuadRotor/NPM</param.output>
+    <param.guid>2113e519-9eaa-40c7-8fb6-3c679a984886</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/tuner.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/standard/Documents/GitHub/NPMSimscapeFOPD/QuadRotor" name="NPM" optional="false">/Users/standard/Documents/GitHub/NPMSimscapeFOPD/QuadRotor/NPM</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2018b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.14.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
