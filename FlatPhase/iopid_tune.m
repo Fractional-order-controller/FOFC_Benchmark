@@ -1,8 +1,8 @@
 %% Setting plant parameters
 global K T1 wc phi %inputs
-K = 0.8592; %plant gain
-T1 = 1.0710; %plant time constant
-wc = 1.2; %crossover frequency
+K = 1.102; %plant gain
+T1 = 0.17936; %plant time constant
+wc = 2.51; %crossover frequency
 phi = 83.9; %phase margin
 
 global iokp ioki iokd
@@ -12,8 +12,9 @@ s=tf('s');
 p_tf=K/(T1*s+1)/s;
 
 %% tune
-opts = pidtuneOptions('CrossoverFrequency',wc,'PhaseMargin',phi);
-[C, info] = pidtune(p_tf, 'pid', opts)
+%opts = pidtuneOptions('CrossoverFrequency',wc,'PhaseMargin',phi);
+%[C, info] = pidtune(p_tf, 'pid', opts)
+[C, info] = pidtune(p_tf, 'pid')
 iokp = C.Kp;
 ioki = C.Ki;
 iokd = C.Kd;
