@@ -6,8 +6,7 @@ This repo includes two FOFC benchmark environments: Simscape and OS4.
 # Citation
 BO SHANG, YUNZHOU ZHANG, CHENGDONG WU, and YANGQUAN CHEN, Fractional Order Flight Control of Quadrotor UAS: Benchmark Environments, Case Studies and Work-flow, IEEE Access, 2019 (to be submitted.)
 
-# Thanks
-This work is an extention of two existing projects.
+# Project history
 * Simscape introduced by GNCC paper
 https://github.com/NeighborhoodPM/simscapeFOPD
 * NPM method introduced by SUAVTA paper
