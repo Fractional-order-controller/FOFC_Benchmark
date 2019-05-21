@@ -11,10 +11,6 @@ BO SHANG, YUNZHOU ZHANG, CHENGDONG WU, and YANGQUAN CHEN, Fractional Order Fligh
 https://github.com/NeighborhoodPM/simscapeFOPD
 * NPM method introduced by SUAVTA paper
 https://github.com/NeighborhoodPM/NPM_Simscape
-(NPM method previous repo: https://github.com/cnpcshangbo/FOPD-tuner/tree/optimization-method/controller-analysis-with-Simulink/optimization)
+(NPM method previous repo (Script): https://github.com/cnpcshangbo/FOPD-tuner/tree/optimization-method/controller-analysis-with-Simulink/optimization; GUI tuner previous repo: https://github.com/NeighborhoodPM/simscapeFOPD/tree/master/QuadRotor/NPM%20op%20for%20FOPD)
 * OS4 introduced by ICARCV paper
 https://github.com/cnpcshangbo/OS4_FOC
-
-* FOPD GUI tuner introduced from SUAVTA paper
-https://github.com/NeighborhoodPM/NPM_Simscape
-(GUI tuner previous repo: https://github.com/NeighborhoodPM/simscapeFOPD/tree/master/QuadRotor/NPM%20op%20for%20FOPD)
