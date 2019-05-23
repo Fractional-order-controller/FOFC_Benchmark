@@ -21,7 +21,8 @@ k=K;tau=T1;
 
 h=plot(FOPD.Time,FOPD.Data,'-',IOPID.Time,IOPID.Data,'--');
 % legend('FOPD','IOPID')
-legend(h,['FOPD: K=' num2str(K)],['IOPID: K=' num2str(K) ', I=' num2str(ioki)])
+%legend(h,['FOPD: K=' num2str(K)],['IOPID: K=' num2str(K) ', I=' num2str(ioki)])
+legend(h,['FOPD: ITAE=' num2str(ITAE_F.Data(end))],['IOPID: ITAE=' num2str(ITAE_I.Data(end))]);
 %%
 % % kp=Kp;
 % % kd=Kd;
