@@ -55,10 +55,10 @@ dotz=diff(z);
 dotz(1)=0;
 
 % ********** CONTROL 1 ************
-a1=2;
+%a1=2;
 a2=3;
 a3=5.0;
-e_alt=z-zd
+%e_alt=z-zd;
 
 e_i=e_i-(z-zd)*0.01;
 %r1=-a1*dotz-a2*(z-zd);
