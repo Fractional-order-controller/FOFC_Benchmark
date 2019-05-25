@@ -50,12 +50,13 @@ sr=tf(b,a,Ts);if r0>0, sr=1/sr; r=-r0; end
 if 1  % change this to 0 if you do not want to see plots
 % approximated h()
 wmax0=2*pi/Ts/2; % rad./sec. Nyquist frequency
-if r0>0, 
+figure(10)
+if r0>0 
     hhat=impulse(1/sr,Taxis); 
 else
     hhat=impulse(sr,Taxis); 
 end    
-    figure;plot(Taxis,hhat,'r');hold on;plot(Taxis,h,'ok')
+    figure(11);plot(Taxis,hhat,'r');hold on;plot(Taxis,h,'ok')
 xlabel('time');ylabel('impulse response'); legend(['true for 1/s^{',num2str(abs(r)),'}'],'approximated')
 figure;
 wmax=floor(1+ log10(wmax0) ); wmin=wmax-5;
