@@ -1,9 +1,9 @@
-global K T1
-global iokp ioki iokd
-global lamda kd kp
-assignin('base','Kp',kp);
-assignin('base','Kd',kd);
-assignin('base','Lambda',lamda);
+% global K T1
+% global iokp ioki iokd
+% global lamda kd kp
+% assignin('base','Kp',kp);
+% assignin('base','Kd',kd);
+% assignin('base','Lambda',lamda);
 %
 % assignin('base','ioKp',iokp);
 % assignin('base','ioKi',ioki);
@@ -12,9 +12,9 @@ assignin('base','Lambda',lamda);
 % ioKi=ioki;
 % ioKd=iokd;
 
-assignin('base','tau',T1);
-assignin('base','k',K);
-k=K;tau=T1;
+% assignin('base','tau',T1);
+% assignin('base','k',K);
+% k=K;tau=T1;
 
 [t_time,x_state,y_out]=sim('model.slx',[0,20]);
 %% draw step response comparison
