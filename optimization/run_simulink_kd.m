@@ -5,12 +5,12 @@ assignin('base','Kp',kp);
 assignin('base','Kd',kd);
 assignin('base','Lambda',lamda);
 %
-assignin('base','ioKp',iokp);
-assignin('base','ioKi',ioki);
-assignin('base','ioKd',iokd);
-ioKp=iokp;
-ioKi=ioki;
-ioKd=iokd;
+% assignin('base','ioKp',iokp);
+% assignin('base','ioKi',ioki);
+% assignin('base','ioKd',iokd);
+% ioKp=iokp;
+% ioKi=ioki;
+% ioKd=iokd;
 
 assignin('base','tau',T1);
 assignin('base','k',K);
