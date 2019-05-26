@@ -35,16 +35,16 @@ Jomega=((1+kd*omega.^(lambda).*cos(pi*lambda/2))^2+...
     (kd*omega.^(lambda).*sin(pi*lambda/2))^2)^0.5;
 kp=omega*(tau^2*omega^2+1)^0.5/Jomega/k; %kp %
 %%
-global ioKp ioKi ioKd
+global iokp ioki iokd
 
-% ioKp = 1.95;ioKi = 0.369;ioKd = 1.48;
-% iokp=ioKp;ioki=ioKi;iokd=ioKd;
+% iokp = 1.95;ioki = 0.369;iokd = 1.48;
+% iokp=iokp;ioki=ioki;iokd=iokd;
 s=fotf('s');
 c_tf=kp*(1+kd*(s^lambda));%Test
 p_tf=k/(tau*s+1)/s;
 sys_tf=c_tf*p_tf;
 %
-ioc_tf=ioKp+ioKi/s+ioKd*s;
+ioc_tf=iokp+ioki/s+iokd*s;
 p_tf=k/(tau*s+1)/s;
 iosys_tf=ioc_tf*p_tf;
 %
